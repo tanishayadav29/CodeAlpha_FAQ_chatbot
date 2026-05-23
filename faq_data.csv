@@ -1,0 +1,107 @@
+question,answer
+What is Python?,Python is a programming language.
+What is NLP?,NLP stands for Natural Language Processing.
+What is chatbot?,A chatbot responds automatically to user questions.
+How does cosine similarity work?,It compares text similarity.
+What is machine learning?,Machine learning finds patterns in data.
+Can chatbot answer everything?,No it only answers stored FAQs.
+What is Machine Learning?,A branch of AI that allows computers to learn from data and make predictions without being explicitly programmed
+What is Supervised Learning?,A type of machine learning where the model is trained on data that already includes the correct answers or labels
+What is Unsupervised Learning?,A type of learning where the model looks for hidden patterns or groupings in unlabeled data
+What is Reinforcement Learning?,A learning method where an agent learns to make decisions by trial and error to maximize a reward
+What is Overfitting?,When a model learns the training data too perfectly including its noise causing it to perform poorly on new data
+What is Underfitting?,When a model is too simple to capture the underlying patterns in the data resulting in poor accuracy everywhere
+What is the difference between a parameter and a hyperparameter?,Parameters are learned by the model during training while hyperparameters are set by the engineer before training starts
+What is a training set?,The portion of the data used to teach the model and adjust its internal weights
+What is a test set?,An untouched portion of data used at the very end of development to evaluate how well the model works in the real world
+What is a validation set?,A data split used during development to fine-tune hyperparameters and prevent overfitting
+What is Feature Engineering?,The process of selecting or transforming or combining raw data variables to create better inputs for a model
+What is Linear Regression?,A basic algorithm used to predict a continuous numerical value based on a straight line relationship
+What is Logistic Regression?,A classification algorithm used to predict the mathematical probability of a binary outcome like Yes or No
+What is a Decision Tree?,An algorithm that splits data into flowchart-like branches based on feature values to make a decision
+What is a Random Forest?,An ensemble method that combines multiple decision trees together to make a more stable and accurate prediction
+What is K-Nearest Neighbors (KNN)?,A simple algorithm that classifies a new data point based on how its closest neighbors are classified
+What is K-Means Clustering?,An unsupervised algorithm that groups unlabeled data into a specific number of clusters based on distance
+What is Naive Bayes?,A fast classification algorithm based on Bayes Theorem that assumes all features are independent of each other
+What is Deep Learning?,A subset of machine learning that uses multi-layered artificial neural networks to solve complex problems
+What does the deep mean in Deep Learning?,It refers to the large number of hidden layers stacked between the input and output layers of a neural network
+What is an Artificial Neural Network?,A computing system mathematically inspired by the structure of biological neurons in the human brain
+What is an Activation Function?,A mathematical formula like ReLU that introduces non-linearity into a neural network allowing it to learn complex patterns
+What is an Epoch?,One single complete pass of the entire training dataset forward and backward through a neural network
+What is a Batch?,A small subset of the training data passed into a model at one time to update its weights
+What is Gradient Descent?,An optimization algorithm used to minimize a model error by iteratively adjusting its weights
+What is the Learning Rate?,A setting that controls how large of a step the optimization algorithm takes when adjusting model weights
+What happens if the learning rate is too high?,The model will overshoot the optimal solution and fail to train properly
+What happens if the learning rate is too low?,The model will take small steps making the training process incredibly slow
+What is a Convolutional Neural Network (CNN)?,A type of neural network specifically designed for processing grid-like data making it the standard choice for computer vision
+What is a Recurrent Neural Network (RNN)?,A neural network with loops that allow it to retain sequential memory making it ideal for text and time-series data
+What is an LSTM?,Long Short-Term Memory is a specialized type of RNN designed to remember information over long sequences of time
+What is Transfer Learning?,Taking a pre-trained model built for a general task and fine-tuning it on a new specific problem
+What is a Generative Adversarial Network (GAN)?,An architecture where two neural networks—a generator and a discriminator—compete to create realistic fake data
+What is Natural Language Processing (NLP)?,A field of AI focused on enabling computers to understand and interpret and generate human language
+What is a Large Language Model (LLM)?,A massive deep learning model trained on vast amounts of text to understand and generate human-like conversation
+What is the Transformer architecture?,The underlying deep learning structure that uses self-attention mechanisms to power modern LLMs
+What is Tokenization?,The process of breaking down a raw string of text into smaller units like words or subwords before feeding it to a model
+What is an Embedding?,A vector representation that maps words or data into numbers placing items with similar meanings close together
+What is classification in machine learning?,The task of predicting a discrete category or label for an input like identifying if an email is spam or not
+What is regression in machine learning?,The task of predicting a continuous numerical value for an input like predicting the price of a house
+What is a Confusion Matrix?,A table used to visually evaluate the performance of a classification model by showing true versus predicted values
+What is Accuracy in machine learning?,The ratio of correctly predicted observations to the total observations in a dataset
+What is Precision?,The ratio of correctly predicted positive observations to the total predicted positives
+What is Recall?,The ratio of correctly predicted positive observations to all actual positives
+What is the F1-Score?,A metric that combines precision and recall into a single score making it highly useful for unbalanced data
+What is Data Imbalance?,A situation where one class in the dataset heavily outnumbers the other class like 99 percent normal versus 1 percent fraud
+What is Cross-Validation?,A technique where data is split into multiple subsets iteratively to test the model stability and avoid a lucky split
+What is the Bias-Variance Trade-off?,The challenge of balancing a model simple assumptions against its sensitivity to training data variations
+What is Data Preprocessing?,The essential step of cleaning and normalizing and formatting raw data before it is fed into a machine learning model
+What is Data Leakage?,An error where information from outside the training dataset is accidentally shared with the model during training
+What is the Curse of Dimensionality?,The problem where adding too many features makes data incredibly sparse making distance-based algorithms break down
+What is Principal Component Analysis (PCA)?,A mathematical technique used to reduce the number of variables in a dataset while keeping most of the important information
+What is a Hyperplane?,A geometric boundary or decision surface that separates different classes of data in a high-dimensional space
+What is a Support Vector Machine (SVM)?,An algorithm that finds the widest possible margin or hyperplane to separate different classes of data points
+What is Ensemble Learning?,The practice of combining predictions from multiple individual models to create a stronger more accurate final prediction
+What is Gradient Boosting?,An ensemble method that builds trees one after another where each new tree works to fix the specific errors of the previous tree
+What is XGBoost?,An highly efficient optimized version of gradient boosting that is widely popular for winning tabular data competitions
+What is Dropout in deep learning?,A regularization technique where random neurons are turned off during training to prevent the network from over-relying on specific paths
+What is Batch Normalization?,A technique that scales the inputs of layers inside a neural network during training to make learning faster and more stable
+What is the Vanishing Gradient problem?,A training issue where error signals shrink exponentially as they move backward through a deep network stopping weights from updating
+What is the Exploding Gradient problem?,An issue where error gradients grow exponentially during training causing massive unstable updates to model weights
+What is an Autoencoder?,A type of neural network designed to compress input data into a smaller representation and then rebuild it perfectly
+What is Computer Vision?,A field of AI that trains computers to interpret and understand visual information from digital images or videos
+What is Self-Attention?,A mechanism in Transformers that allows a model to look at every word in a sentence and decide which words are most important
+What is Fine-Tuning?,Taking an existing pre-trained model and training it further on a smaller specific dataset to adapt it to a niche task
+What is Zero-Shot Learning?,A model ability to correctly complete a task or classify data that it was never explicitly trained to do
+What is Few-Shot Learning?,Providing a machine learning model with just a few examples of a new task during inference to help it understand what to do
+What is Bias in a machine learning model?,The error introduced by approximating a complex real-world problem with a model that is too simple
+What is Variance in a machine learning model?,The error introduced by a model being too sensitive to small fluctuations and noise in the training data
+What is Regularization?,A collection of techniques like L1 or L2 used to penalize complex models to prevent overfitting
+What is L1 Regularization (Lasso)?,A method that penalizes the absolute size of model weights which can drive irrelevant feature weights all the way to zero
+What is L2 Regularization (Ridge)?,A method that penalizes the squared size of model weights keeping weights small across all features to prevent domination
+What is a True Positive?,An outcome where the model correctly predicts the positive class like identifying a sick patient as sick
+What is a False Positive?,An error where the model incorrectly predicts the positive class like telling a healthy patient they are sick
+What is a True Negative?,An outcome where the model correctly predicts the negative class like identifying a healthy patient as healthy
+What is a False Negative?,An error where the model incorrectly predicts the negative class like telling a sick patient that they are healthy
+What is an ROC Curve?,A graph that plots a model true positive rate against its false positive rate at various classification thresholds
+What is AUC (Area Under the Curve)?,A single metric between 0 and 1 that measures a classification model overall ability to distinguish between classes
+What is a Cost Function?,A mathematical formula that measures how wrong a model predictions are compared to the actual correct answers
+What is Mean Squared Error (MSE)?,A common cost function for regression that calculates the average of the squared differences between predictions and actual values
+What is Mean Absolute Error (MAE)?,A cost function for regression that measures the average absolute difference between predicted and actual values
+What is Cross-Entropy Loss?,A standard cost function used for classification models that measures performance based on predicted probabilities
+What is Clustering?,An unsupervised learning task that involves grouping data points together based on their similarities
+What is Dimensionality Reduction?,The process of reducing the number of input variables or features in a dataset to make models simpler and faster
+What is an Outlier?,A data point that diverges drastically from the overall pattern or distribution of the rest of the dataset
+What is Reinforcement Learning from Human Feedback (RLHF)?,A method that uses human rankings and preferences to fine-tune AI models so they align better with human intent
+What is Concept Drift?,A problem where the real-world statistical properties of what you are trying to predict change over time making an old model outdated
+What is Data Drift?,A problem where the statistical distribution of the incoming input features changes over time requiring model retraining
+What is Explainable AI (XAI)?,A set of tools and frameworks designed to help humans understand and trust the outputs produced by complex deep learning models
+Why are GPUs used for Deep Learning?,Deep learning involves massive amounts of simultaneous matrix math which GPUs are built to process in parallel much faster than CPUs
+What is an anomaly detection model?,A type of machine learning model trained to identify rare or unusual items or events that break normal patterns
+How do streaming services use ML?,They use collaborative filtering algorithms to analyze your watching habits and match you with content liked by similar users
+How do email filters catch spam?,They use text classification models to scan message content and metadata for phrases and patterns common to scams
+How do credit card companies spot fraud?,They use real-time anomaly detection models to instantly flag transactions that do not match your historical spending habits
+How do autonomous cars see pedestrians?,They use deep convolutional neural networks to process real-time video feeds from cameras and draw bounding boxes around objects
+How is ML used in healthcare imaging?,Computer vision models are trained on thousands of labeled scans to spot microscopic signs of tumors or fractures
+What is Sentiment Analysis?,The use of natural language processing to scan text blocks and determine if the emotional tone is positive or negative or neutral
+How do predictive maintenance models work?,They look at sensor data from industrial machinery over time to forecast exactly when a part is likely to break
+What is the No Free Lunch Theorem?,A mathematical concept stating that no single machine learning algorithm works best for every single real-world problem
+What is a prompt in generative AI?,The input text or instructions provided by a user to guide a generative model output
